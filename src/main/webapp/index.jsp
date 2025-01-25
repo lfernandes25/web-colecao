@@ -19,6 +19,13 @@
 
 
                         <form action="validate" method="post" id="login">
+                         <!-- Mensagem Geral de Erro -->
+                                                    <p>
+                                                        <% if (request.getAttribute("errorGeral") != null) { %>
+                                                            <span style="color: red;"><%= request.getAttribute("errorGeral") %></span>
+                                                        <% } %>
+                                                    </p>
+
                             <p>
                                 <label>Usuário: </label>
                                 <input type="text" id="usuario" name="usuario" class="teste"
