@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+
+.teste{
+    border: 1px solid #FF9B05;
+}
+
+.imagemInicial{
+    background-color: #FFFFFF;
+    //background: url('../image/X-Men_leandro_02.jpg') no-repeat center;
+}
+
+.divInicial{
+    width: 1125px;
+    height: 600px;
+    margin: 10px auto;
+    background-color: #EEE9E9;
+}
+
+.divdireita{
+    width: 680px;
+    height: 540px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 14px;
+    background-color: #FFFFFF;
+
+}
+
+.divesquerda{
+    width: 414px;
+    height: 540px;
+    float: left;
+    margin-left: 6px;
+    margin-top: 30px;
+}
+
+.divInicialCentral{
+    margin: 125px auto;
+    width: 572px;
+    height: 230px;
+    position: relative;
+}
+
+.divlogin{
+    text-align: right;
+    width: 245px;
+    float: right;
+    margin-top: 23px;
+    margin-right: 20px;
+}
+
+.divloginImagem{
+    width: 295px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.identificarDiv{
+    border: 1px solid #FF0000;
+}
+
+.divImagemDestaqueLogin{
+    width: 396px;
+    height: 562px;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+.imagemDestaque{
+    width: 377px;
+    height: 538px;
+    margin-left: 18px;
+}
+
+h1 , label , li , input , span {
+    font-family: 'PT Sans Narrow' , Arial;
+}
+
+.fontH1{
+    font-size: 50px;
+    color: #FFB545;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    float: left;
+    display: block;
+    position: relative;
+    margin: 0px 35px;
+    text-decoration: none;
+}
+
+.camada_2{
+    width: 1060px;
+    background-color: #ffffff;
+    float: left;
+    margin: 25px;
+    border-radius: 10px;
+    clear: both;
+}
+
+.corpoCadHeightItem{
+    height: 390px;
+}
+
+.corpoCadHeightCodigo{
+    height: 240px;
+}
+
+.corpoHeightCodigo{
+    height: 260px !important;
+}
+
+
+.cadastroDeItens{
+    margin: -2px 40px !important;
+}
+
+
+.corpoCadastroItenHeight{
+    height: 460px !important;
+}
+
+.heightCadastroDeItens{
+    height: 500px !important;
+}
+
+.divCadastroCodigo{
+    width: 900px;
+    background-color: #FF0000;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.divImagemCadastroItens{
+    width: 230px;
+    height: 350px;
+    background-color: #000000;
+    border-radius: 10px;
+    float: left;
+}
+
+.divImagemCadastroItens img{
+    width: 230px;
+    height: 350px;
+    background-color: #000000;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+.camada_1:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.divRegistro {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.divImagemCadastroDuplicado {
+    height: 100%;
+    float: left;
+}
+
+.divImagemCadastroDuplicado img {
+    height: 100%;
+    border-radius: 30px;
+    padding: 0px 20px;
+}
+
+.divCadastroDuplicado {
+    width: 820px;
+    height: 100%;
+    float: right;
+    background-color: #FF0000;
+    border-radius: 10px;
+}
+
+.divCadastroItens{
+    width: 820px;
+    height: 280px;
+    background-color: #FF0000;
+    border-radius: 10px;
+    float: right;
+}
+
+.divBtCadastro{
+    margin-top: 10px;
+    float: right;
+    margin-top: 10px;
+    width: 820px;
+}
+
+
+.divBtCadastroCodigo{
+    width: 982px !important;
+}
+
+.divStyleBt{
+    padding: 0px 20px;
+    height: 50px;
+    margin-left: 15px;
+    background-color: #4e69a2;
+    font-size: 20px;
+    font-style: oblique;
+    color: #FFFFFF;
+    float: right;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stylebtImagem{
+    width: 229px;
+    height: 50px;
+    background-color: #4e69a2;
+    font-size: 20px;
+    font-style: oblique;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.divCodigo{
+    width: 220px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: 16px;
+}
+.divCodigo input[type="text"]{
+    font-size: 20px!important;
+}
+
+.divCodigoCodigo{
+    width: 840px !important;
+}
+
+.divDados{
+    margin: 10px 10px;
+}
+
+.dadosCodigo {
+    margin-left: 68px;
+}
+
+.divDados input {
+    border-radius: 5px;
+    font-size: 20px;
+    height: 30px;
+    margin: 10px 5px;
+}
+
+.titulo{
+    width: 678px;
+    padding: 0px 10px;
+}
+
+.tituloCodigo{
+    margin-left: 15px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 0px;
+
+}
+
+.edicao{
+    width: 70px;
+    text-align: center;
+}
+
+.subtituloCadastro{
+    width: 766px;
+    padding: 0px 10px;
+}
+
+.dataCadastro{
+    width: 150px;
+    text-align: center;
+}
+
+.tipoEditora{
+    width: 363px;
+    padding: 0px 10px;
+}
+
+.tipoEditoraCodigo {
+    width: 355px !important;
+}
+
+.preco{
+    width: 195px;
+    padding: 0px 10px;
+}
+
+.total{
+    width: 45px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.item{
+    width: 45px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.itemPesquisa{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.CoEdicao{
+    width: 45px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.telaErros{
+    width: 190px!important;
+}
+
+.telaErros a{
+    width: 150px! important;
+}
+
+.lbErroDuplicado{
+    font-size: 20px;
+    height: 30px;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+.divLinhaErroDuplicado{
+    // background-color: #FFFF00;
+    width: 790px;
+    height: 30px;
+}
+
+.heightErroDuplicado{
+    height: 270px! important;
+}
+
+.verDetalhes{
+    background-color: #FF1125;
+    width: 100%;
+    height: 10%;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 5px;
+}
+
+.lbEdicao{
+    float: right;
+}
+
+.lbEditoraTipo{
+    width: 50%;
+    float: left;
+}
+
+.lbDataValor{
+    width: 24%;
+    float: left;
+}
+
+.btMaisDetalhes{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background: #FFFFFF;
+    float: right;
+    border-radius: 0px 0px 9px;
+}
+
+.lbMaisDetalhes{
+    width: 80%;
+    float: left;
+
+}
+
+.lbMaisDetalhes span{
+    float: right;
+    padding: 3% 8%;
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.lbmais{
+    line-height: 32px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.btMaisDetalhes a:hover {
+    background:#FF0000;
+    color:#FFFFFF;
+    height: 100%;
+    border-radius: 0px 0px 10px;
+}
+
+.btMaisDetalhes a {
+    color:#FF1125;
+    text-decoration:none;
+    display:block;
+}
+
+.corpoCadastroEditora{
+    //background-color: #000000 !important;
+    height: 500px !important;
+}
+
+.mioloCadastroEditora1{
+    background-color: #CCCCCC;
+    width: 1090px;
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.mioloCadastroEditora2{
+    background-color: #FFFFFF;
+    width: 1000px;
+    height: 180px;
+    margin: 10px 55px;
+    border-radius: 10px;
+}
+
+.mioloCadastroEditora3{
+    background-color: #FF0000;
+    width: 100%;
+    height: 110px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.divBtCadEditora{
+    width: 100%;
+    //background-color: #000000;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.btStyle{
+    padding: 0px 20px;
+    height: 50px;
+    margin-left: 15px;
+    background-color: #4e69a2;
+    font-size: 20px;
+    font-style: oblique;
+    color: #FFFFFF;
+    float: right;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.hoverButton :hover{
+    background: #FF0000;
+    cursor: pointer;
+}
+
+.divFiltros {
+    height: 120px;
+    width: 96%;
+    background: #FFFFFF;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.CamposFiltros {
+    height: 120px;
+    width: 825px;
+    background: #FF0000;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.CamposFiltrosBotao{
+    width: 190px;
+    height: 150px;
+    /* background: greenyellow; */
+    float: right;
+
+}
+
+.filtroPesquisar{
+    padding: 0px 44px !important;
+}
+
+.divBtListCadastroCodigo {
+    //width: 1035px !important;
+}
+
+.divBtCadastarCodigo {
+    width: 160px !important;
+}
+
+.divButton {
+    height: 50px;
+    margin-top: 7px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+
+.divButton input:hover{
+    background: #FF0000;
+}
+
+.divCorpo2{
+    background-color: #FF0000;
+    padding: 10px 0;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+.divlistagemCodigo{
+    margin-left: 20px;
+    width: 1020px;
+    height: 730px;
+}
+
+.divCodigo{
+    width: 220px;
+    height: 40px;
+    color: #FFFFFF;
+    margin: 10px 10px;
+    font-size: 20px;
+    margin-left: 16px;
+}
+.divCodigo input[type="text"]{
+    font-size: 20px!important;
+}
+
+.listaColecaoTable {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 988px;
+}
+
+.listaColecaoTable td{
+    border-right: 1px solid #000000;
+    text-align: center;
+    height: 30px;
+}
+
+.tableTitulo{
+    text-align: left !important;
+    padding-left: 20px;
+}
+
+.fontCabecalho {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FFB545;
+    border-color: #FFB545;
+}
+
+.fontCabecalho td{
+    text-align: center;
+}
+
+.tableCodigo{
+    width: 70px !important;
+}
+
+.tableEditora{
+    width: 140px !important;
+}
+
+.tableTipo{
+    width: 100px !important;
+}
+
+.a{
+    border-right-color: #FFB525 !important;
+}
+
+.linhaTabela{
+    border: 2px solid #000000;
+    width: 984px;
+}
+
+.b {
+    border-right-color: #FFFFFF !important;
+}
+
+.c{
+    background-color: #DDDDDD;
+}
+
+.selectPesquisa{
+    margin-left: 15px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 370px;
+}
+
+.selectPesquisaleft{
+    float: right;
+    margin-right: 40px;
+}
+
+.divCadastroDados{
+    float: right;
+    width: 820px;
+    height: 347px;
+}
+
+/* Filtros de Itens */
+.camada_3{
+    height: 280px;
+    margin: 20px;
+}
+
+.divFiltrosItens {
+    float: left !important;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.divBtFiltroItens{
+    float: right;
+    width: 185px;
+    margin-top: 100px;
+}
+
+.styleBtFiltroItem{
+    width: 185px;
+    height: 50px;
+    background-color: #4E69A2;
+    font-size: 20px;
+    color: #FFF;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cama_2_height_FiltroItem{
+    height: 1200px !important;
+}
+
+.cama_2_height_PesquisarItem{
+    height: 1150px;
+}
+
+.tableCodigoItem{
+    width: 90px !important;
+}
+
+.listaItemTable {
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 988px;
+}
+
+.listaItemTable td{
+    border-right: 1px solid #000000;
+    text-align: center;
+    font-size: 15px !important;
+}
+
+.tableItemEdicao{
+    width: 50px !important;
+}
+
+.tableItemTitulo{
+    text-align: left !important;
+    padding-left: 10px;
+}

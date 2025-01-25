@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+
+.header{
+    margin: 0px auto;
+    width: 1110px;
+    height: 40px;
+    background-color: #FF0000;
+}
+
+.icone{
+    margin: 10px 10px;
+    width: 210px;
+    height: 66px;
+    background-color: #FFFF00;
+    float: left;
+}
+
+.iconelogo{
+    background-position: 0px -26px !important;
+    background-size: 100% !important;
+    background-color: #FFAA11 !important;
+}
+
+.logo-geral{
+    background: url('../images/minions_001.gif') no-repeat;
+}
+
+.navegation{
+    margin-top: 11px;
+    float: right;
+    width: 880px;
+    height: 47px;
+}
+
+.navegation a {
+    font-size: 18px;
+    color: #5c5c5c;
+    text-transform: uppercase;
+}
+
+.navegation teste{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.contanier{
+    width: 884px;
+    /* height: 68px; */
+    margin: -7px auto;
+}
+
+.bordar{
+    border-bottom: 14px solid #ff7129;
+    height: 76px;
+}
+
+.logado{
+    background-color: #FFFFFF;
+    margin-left: 620px;
+    width: 250px;
+    height: 31px;
+    float: left;
+}
+
+.opcoeslogado{
+    float: right !important;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+
+.panigiaInicial{
+    background-color: #FFFFFF;
+    width: 1110px;
+    height: 1420px;
+    margin: 51px auto;
+}
+
+.subtitulo{
+    background-color: #FF0000;
+    width: 1110px;
+    height: 35px;
+    margin-top: 60px;
+}
+
+.subtitulo label{
+    color: #FFFFFF;
+    float: left;
+    margin: -5px 40px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.camada_1{
+    background-color: #E0E0E0;
+    width: 1110px;
+    min-height: 400px;
+    margin-top: 5px;
+}
+
+.destaque{
+    background-color: #FFFFFF;
+    width: 190px;
+    height: 360px;
+    margin: 10px 10px;
+    float: left;
+    border-radius: 10px;
+}
+
+.blocoDestaque{
+    background-color: #DFDFDF;
+    width: 1051px;
+    height: 350px;
+    margin: 0px auto;
+}
+
+.imgensDestaque{
+    background-color: #AAAAAA;
+  //  width: 170px;
+    height: 238px;
+    margin: 10px 10px;
+//    float: left;
+    /*background: url('../image/X-Men 20.jpg') no-repeat;*/
+    background-size: 171px 239px;
+    border-radius: 10px;
+}
+
+.imgensDestaque img{
+    width: 171px;
+    height: 239px;
+    -webkit-border-radius: 10px;
+}
+
+.dadosDasImagensDestaque{
+    width: 170px;
+    height: 67px;
+   // margin: -5px 10px;
+   // float: left;
+   padding: 0px 10px;
+}
+
+.dadosDasImagensDestaque p{
+    width: 170px;
+    margin: -2px 0px;
+    float: left;
+    font-weight: bold;
+    color: #0A00FF;
+    font-size: 14px;
+}
+
+.caixaNome {
+    height: 41px;
+}
+
+.dadosDasImagensDestaque p label label {
+    color: #000000 !important;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+
+.cadastroMenu {
+    // Menu Header
+    list-style:none;
+    float:left;
+    margin-top: 11px;
+}
+
+.cadastroMenu li{
+    // Separação dos itens no menu
+    position:relative;
+    float:left;
+   // border-right:1px solid #c0c0c0;
+}
+
+.cadastroMenu li a{
+    // Fundo do texto do menu
+    color:#333333;
+    text-decoration:none;
+    padding:5px 10px;
+    display:block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cadastroMebuSub li a{
+    margin-left: -25px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+.cadastroMenuSub li ul{
+    margin-left: -30px;
+
+}
+
+.cadastroMenu li a:hover{
+    background:#FF7129;
+    color:#FFFFFF;
+    box-shadow: 0px 0px 0px #FF7129;
+    //box-shadow:0 3px 10px 0 #CCCCCC;
+   //text-shadow:0px 0px 5px #FFFFFF;
+   //position: absolute;
+}
+
+.cadastroMebuSub li a:hover{
+    width: 120px;
+}
+
+.cadastroMenu li  ul{
+    position:absolute;
+    top:30px;
+    left:0;
+    background-color:#FF7129;
+    display:none;
+    width: 160px;
+    border-radius: 10px;
+
+}
+
+.cadastroMenu li:hover ul, .cadastroMenu li.over ul{display:block;}
+
+.cadastroMenu li ul li{
+   // border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+}
+
+*{margin: 0; padding: 0;}
+
+
+
+
+
