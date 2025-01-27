@@ -5,6 +5,7 @@ import com.lfernandes.model.UsuarioSenha;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.Serial;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -20,6 +21,7 @@ import org.apache.log4j.Logger;
 
 @WebServlet("/validate")
 public class LoginServlet extends HttpServlet {
+    @Serial
     private static final long serialVersionUID = 1L;
     private static final Logger logger = Logger.getLogger(LoginServlet.class);
     private String field;
@@ -66,8 +68,8 @@ public class LoginServlet extends HttpServlet {
                 String responseBody = responseString.toString();
                 logger.info("Response Body: " + responseBody);
 
+                Response apiResponse = objectMapper.readValue(responseBody, Response.class);
                 if (statusCode == 200) {
-                    Response apiResponse = objectMapper.readValue(responseBody, Response.class);
                     if (apiResponse.getError() == null) {
                         return "success";
                     } else {
@@ -84,7 +86,6 @@ public class LoginServlet extends HttpServlet {
                         return apiResponse.getError();
                     }
                 } else {
-                    Response apiResponse = objectMapper.readValue(responseBody, Response.class);
                     return apiResponse.getError() != null ? apiResponse.getError() : "Falha na autenticação: " + statusCode;
                 }
             }
