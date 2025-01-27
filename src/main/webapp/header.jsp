@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <header class="header">
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <div class="bordar">
@@ -19,12 +20,12 @@
                         <ul class="cadastroMebuSub">
                             <li><a href="../cadastro/cadastroDeItens.jsp" title=""> Itens </a>  </li>
                             <li><a href="../cadastro/cadastroDeCodigo.jsp" title=""> Código </a>  </li>
-                            <li><a href="../cadastro/cadastroEditora.jsp" title=""> Editora </a></li>
+                            <li><a href="../cadastro/cadastroDeEditora.jsp" title=""> Editora </a></li>
                         </ul>
                     </li>
                     <li class="teste2"><a href="#"> Pesquisar </a>
                         <ul class="cadastroMebuSub">
-                            <li><a href="../listagem/pesquisarItem.jsp" title=""> Itens </a>  </li>
+                            <li><a href="../listagem/listagemItem.jsp" title=""> Itens </a>  </li>
                             <li><a href="../listagem/listagemCodigo.jsp" title=""> Código </a>  </li>
                         </ul>
                     </li>

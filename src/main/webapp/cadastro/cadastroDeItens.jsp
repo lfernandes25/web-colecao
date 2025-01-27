@@ -18,7 +18,7 @@
                     <div class="camada_2 corpoCadHeightItem">
                         <div style="width: 1060px; height: 350px; margin-top: 20px;">
                             <div class="divImagemCadastroItens">
-                                <img src="../image/X-Men 20.jpg" alt>
+                                <img src="../images/X-Men 20.jpg" alt>
                             </div>
                             <div class="divCadastroDados">
                                 <div class="divCadastroItens">

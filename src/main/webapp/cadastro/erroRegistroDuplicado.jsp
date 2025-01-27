@@ -16,7 +16,7 @@
                 <div class="camada_2">
                     <div class="divRegistro">
                         <div class="divImagemCadastroDuplicado">
-                            <img src="../image/X-Men 20.jpg" alt>
+                            <img src="../images/X-Men 20.jpg" alt>
                         </div>
                         <div class="divCadastroDuplicado">
                             <div class="divCodigo">
@@ -70,7 +70,7 @@
 
                     <div class="divRegistro">
                         <div class="divImagemCadastroDuplicado">
-                            <img src="../image/X-Men 20.jpg" alt>
+                            <img src="../images/X-Men 20.jpg" alt>
                         </div>
                         <div class="divCadastroDuplicado">
                             <div class="divCodigo">
