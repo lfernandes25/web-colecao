@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+.cadastroNomeEditora{
+    width: 355px;
+    padding: 0px 10px;
+    height: 30px;
+    font-size: 20px
+}

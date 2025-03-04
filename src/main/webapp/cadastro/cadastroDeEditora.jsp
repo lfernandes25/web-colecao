@@ -3,6 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="../CSS/cadastroEditora.css">
         <link rel="stylesheet" href="../CSS/global.css">
         <link rel="stylesheet" href="../CSS/header.css">
         <title>Cadastro de Editora</title>
@@ -15,7 +16,7 @@
             <div class="mioloCadastroEditora1">
                 <div class="mioloCadastroEditora2">
                     <div class="mioloCadastroEditora3">
-
+                    <input type="text" value="" name="editora" placeholder="nome editora" class="cadastroNomeEditora"/>
                     </div>
                     <div class="divBtCadEditora">
                         <input type="submit" value="Cancelar" name="cancelar" class="divStyleBt" />
