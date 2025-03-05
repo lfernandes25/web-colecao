@@ -18,28 +18,28 @@
                 <ul class="cadastroMenu">
                     <li class="teste2"><a href="#"> Cadastro </a>
                         <ul class="cadastroMebuSub">
-                            <li><a href="../cadastro/cadastroDeItens.jsp" title=""> Itens </a>  </li>
-                            <li><a href="../cadastro/cadastroDeCodigo.jsp" title=""> Código </a>  </li>
-                            <li><a href="../cadastro/cadastroDeEditora.jsp" title=""> Editora </a></li>
+                            <li><a href="${pageContext.request.contextPath}/cadastro/cadastroDeItens.jsp" title=""> Itens </a>  </li>
+                            <li><a href="${pageContext.request.contextPath}/cadastro/cadastroDeCodigo.jsp" title=""> Código </a>  </li>
+                            <li><a href="${pageContext.request.contextPath}/cadastro/cadastroDeEditora.jsp" title=""> Editora </a></li>
                         </ul>
                     </li>
                     <li class="teste2"><a href="#"> Pesquisar </a>
                         <ul class="cadastroMebuSub">
-                            <li><a href="../listagem/listagemItem.jsp" title=""> Itens </a>  </li>
-                            <li><a href="../listagem/listagemCodigo.jsp" title=""> Código </a>  </li>
+                            <li><a href="${pageContext.request.contextPath}/listagem/listagemItem.jsp" title=""> Itens </a>  </li>
+                            <li><a href="${pageContext.request.contextPath}/listagem/listagemCodigo.jsp" title=""> Código </a>  </li>
                         </ul>
                     </li>
                     <li>
                         <a href="ajuda" title=""> Ajuda </a>
                     </li>
                     <li>
-                        <a href="../inicial/principal.jsp" title=""> Página inicial  </a>
+                        <a href="${pageContext.request.contextPath}/inicial/principal.jsp" title=""> Página inicial  </a>
                     </li>
                     <li>
 
                         <a href="#" title="">Tela de Erros</a>
                          <ul class="cadastroMebuSub telaErros">
-                    <li><a href="../cadastro/erroRegistroDuplicado.jsp" title="Registro Duplicado">Registro Duplicado</a></li>
+                    <li><a href="${pageContext.request.contextPath}/cadastro/erroRegistroDuplicado.jsp" title="Registro Duplicado">Registro Duplicado</a></li>
                         </ul>
                         </li>
                 </ul>
