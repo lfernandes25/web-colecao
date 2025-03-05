@@ -1,4 +1,4 @@
-package com.lfernandes.model;
+package com.lfernandes.dto;
 
 public class Response {
     private String message;

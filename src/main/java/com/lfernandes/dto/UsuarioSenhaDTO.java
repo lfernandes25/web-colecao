@@ -1,10 +1,10 @@
-package com.lfernandes.model;
+package com.lfernandes.dto;
 
-public class UsuarioSenha {
+public class UsuarioSenhaDTO {
     private String username;
     private String password;
 
-    public UsuarioSenha(String username, String password) {
+    public UsuarioSenhaDTO(String username, String password) {
         this.username = username;
         this.password = password;
     }
